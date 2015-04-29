@@ -17,4 +17,14 @@
       <UniqueIdentifier>{7a8b6a64-eda8-49df-be40-3af99c3686e8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="csv_reader.cpp">
+      <Filter>csv_reader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="csv_reader.h">
+      <Filter>csv_reader</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
