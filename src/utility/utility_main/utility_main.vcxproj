@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D8D8E759-F165-43F3-93A2-00690DEC986A}</ProjectGuid>
-    <RootNamespace>utility</RootNamespace>
+    <ProjectGuid>{F38FD480-6CA0-4F85-853D-DFF1C384475C}</ProjectGuid>
+    <RootNamespace>utility_main</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -64,12 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="csv_data.cpp" />
-    <ClCompile Include="csv_reader.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="csv_data.h" />
-    <ClInclude Include="csv_reader.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

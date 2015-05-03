@@ -3,6 +3,9 @@
 #ifndef _CSV_READER_H_
 #define _CSV_READER_H_
 
+#include <string>
+#include <vector>
+#include "csv_data.h"
 
 class CsvReader
 {
