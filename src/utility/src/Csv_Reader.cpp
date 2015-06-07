@@ -3,7 +3,7 @@
 #include "ace/Assert.h"
 #include "ace/OS.h"
 #include <boost/lexical_cast.hpp>
-#include "../MF_Framework/MF_Log.h"
+#include "MF_Log.h"
 /******************************************************************************/
 Csv_Reader::Csv_Field::Csv_Field(CSV_FIELD_TYPE type)
 {
@@ -12,7 +12,7 @@ Csv_Reader::Csv_Field::Csv_Field(CSV_FIELD_TYPE type)
 	ACE_ASSERT(field_value != NULL);
 	if (field_value == NULL)
 	{
-		MF_ERROR("Csv_Field  field_value = 0 \n");
+		//MF_ERROR("Csv_Field  field_value = 0 \n");
 		return;
 	}
 	switch(type)

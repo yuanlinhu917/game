@@ -17,7 +17,7 @@
 #ifndef _CSVREADER_H_
 #define _CSVREADER_H_
 /******************************************************************************/
-#include "Define.h"
+#include "data_define.h"
 #include  "boost/bimap.hpp" 
 #include "ace/Assert.h"
 
@@ -123,6 +123,9 @@ public:
 	typedef	boost::bimaps::bimap< int, std::string >::left_map::iterator	Field_Seq_Iter;
 	typedef	boost::bimaps::bimap< int, std::string >::right_map::iterator	Field_Name_Iter;
 	typedef	boost::bimaps::bimap< int, std::string >						Data_Field_Name_Map;
+
+	//typedef	std::map< int, std::string >::iterator							Field_Name_Iter;
+	//typedef	std::map< int, std::string >									Data_Field_Name_Map;
 
 
 	
